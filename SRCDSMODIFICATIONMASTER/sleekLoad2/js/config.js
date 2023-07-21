@@ -100,7 +100,7 @@ var l_bgDarkening = 50;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = true;
+var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
@@ -121,7 +121,7 @@ var l_musicRandom = false;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 15;
+var l_musicVolume = 5;
 
 // Enable custom messages?
 // 'true' or 'false'

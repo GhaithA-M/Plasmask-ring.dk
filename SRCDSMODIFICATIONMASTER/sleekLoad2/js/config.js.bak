@@ -121,7 +121,7 @@ var l_musicRandom = false;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 15;
+var l_musicVolume = 5;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -131,7 +131,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 	"Based out of EU",
 	"Server is hosted in the EU!",
-	"Made in EU",
+	"Made in EU"
 ];
 
 // Random message order?
