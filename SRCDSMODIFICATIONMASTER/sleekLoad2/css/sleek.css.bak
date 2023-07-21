@@ -57,7 +57,7 @@ video {
 
 #title {
 	display: inline-block;
-	font-size: 60px;
+	font-size: 40px;
 	margin-left: 12px;
 	margin-top: 12px;
 	overflow: hidden;
