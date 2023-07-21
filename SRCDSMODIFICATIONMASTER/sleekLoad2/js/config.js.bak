@@ -100,7 +100,7 @@ var l_bgDarkening = 50;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = false;
+var l_music = true;
 
 // Display current music name?
 // 'true' or 'false'
@@ -111,7 +111,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "", name: ""},
+	{ogg: "Melody #406.wav", name: "Melody #406 by Ralf"},
 	{ogg: "", name: ""},
 ];
 
@@ -129,8 +129,8 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
-	"Thanks for joining us!"
+	"Based out of Denmark",
+	"Server is hosted in North Jutland!"
 ];
 
 // Random message order?
