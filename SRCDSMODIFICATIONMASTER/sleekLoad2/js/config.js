@@ -10,7 +10,7 @@
 // Leave it blank to use text instead
 // (Put the files in the images folder)
 // (You can also use external URL)
-var l_serverImage = "2.jpg";
+var l_serverImage = "";
 
 // Center logo?
 // 'true' or 'false'
@@ -22,7 +22,7 @@ var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "Wonderland EU DarkRP";
+var l_serverName = "";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -55,7 +55,7 @@ var l_bgVideo = true;
 // Just make sure they are using webm VP8 format 
 // (Place the videos in the backgrounds/videos folder)
 // (You can also use external URL)
-var l_background = "dropsflares.webm";
+var l_background = "inthedeep.webm";
 
 // (Image-background only)
 // Enable map-based background image?
@@ -121,7 +121,7 @@ var l_musicRandom = false;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 35;
+var l_musicVolume = 15;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -129,8 +129,8 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
-	"Thanks for joining us!"
+	"Based out of Denmark",
+	"Server is hosted in North Jutland!"
 ];
 
 // Random message order?
