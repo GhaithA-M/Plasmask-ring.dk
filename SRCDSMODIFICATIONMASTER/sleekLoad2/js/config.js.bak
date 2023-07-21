@@ -111,7 +111,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "Melody #406.wav", name: "Melody #406 by Ralf"},
+	{ogg: "Melody #406.wav", name: "Melody #406"},
 	{ogg: "", name: ""},
 ];
 
@@ -129,8 +129,8 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Based out of Denmark",
-	"Server is hosted in North Jutland!"
+	"Based out of the EU",
+	"Server is hosted in the EU!"
 ];
 
 // Random message order?
