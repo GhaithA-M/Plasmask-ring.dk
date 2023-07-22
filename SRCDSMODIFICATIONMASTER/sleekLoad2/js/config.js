@@ -129,9 +129,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Based out of EU",
+	"Based in the EU",
 	"Server is hosted in the EU!",
-	"Made in EU"
+	"Made in the EU"
 ];
 
 // Random message order?
