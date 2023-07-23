@@ -27,7 +27,7 @@ var l_serverName = "";
 // Use a video for the background?
 // Otherwise it will use images
 // 'true' or 'false'
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 // Default available videos:
 // "aurora.webm"
@@ -72,7 +72,18 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	""
+	"1.jpg",
+	"2.jpg",
+	"3.jpg",
+	"4.jpg",
+	"5.png",
+	"6.jpg",
+	"7.jpg",
+	"8.jpg",
+	"9.jpg",
+	"10.jpg",
+	"11.jpg",
+	"12.jpg"
 ];
 
 // (Image-background only)
@@ -83,7 +94,7 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 4000;
 
 // (Image-background only)
 // Image background fade velocity
@@ -129,9 +140,8 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Based out of EU",
-	"Server is hosted in the EU!",
-	"Made in EU"
+	"Props, entities, shipments and money printers remain on disconnect.",
+	"Shipments and printers are saved for 5 days after disconnect."
 ];
 
 // Random message order?
@@ -140,11 +150,11 @@ var l_messagesRandom = true;
 
 // Delay between message changes
 // in milliseconds
-var l_messagesDelay = 5000;
+var l_messagesDelay = 2500;
 
 // Messages fade time
 // in milliseconds
-var l_messagesFade = 1000;
+var l_messagesFade = 1500;
 
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
