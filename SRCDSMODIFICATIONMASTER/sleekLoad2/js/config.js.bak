@@ -72,10 +72,7 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"1.jpg",
 	"2.jpg",
-	"3.jpg",
-	"4.jpg",
 	"5.png",
 	"6.jpg",
 	"7.jpg",
@@ -94,12 +91,12 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 4000;
+var l_bgImageDuration = 3000;
 
 // (Image-background only)
 // Image background fade velocity
 // in milliseconds
-var l_bgImageFadeVelocity = 2000;
+var l_bgImageFadeVelocity = 1000;
 
 // Enable background overlay?
 // 'true' or 'false'
@@ -141,7 +138,7 @@ var l_messagesEnabled = true;
 // Enter your custom messages below
 var l_messages = [
 	"Props, entities, shipments and money printers remain on disconnect.",
-	"Shipments and printers are saved for 5 days after disconnect."
+	"Shipments and money printers are saved for 7 days after disconnect."
 ];
 
 // Random message order?
@@ -150,11 +147,11 @@ var l_messagesRandom = true;
 
 // Delay between message changes
 // in milliseconds
-var l_messagesDelay = 2500;
+var l_messagesDelay = 2000;
 
 // Messages fade time
 // in milliseconds
-var l_messagesFade = 1500;
+var l_messagesFade = 750;
 
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
