@@ -91,12 +91,12 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 3000;
+var l_bgImageDuration = 2500;
 
 // (Image-background only)
 // Image background fade velocity
 // in milliseconds
-var l_bgImageFadeVelocity = 1000;
+var l_bgImageFadeVelocity = 500;
 
 // Enable background overlay?
 // 'true' or 'false'
@@ -137,10 +137,10 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Props, entities, shipments and money printers remain on disconnect.",
-	"Shipments and money printers are saved for 7 days after disconnect.",
+	"Props, entities, shipments and money printers remain on disconnect",
+	"Shipments and money printers are saved for 7 days after last disconnect",
 	"All items are saved on disconnect",
-	"Remember to add keypads to your fading doors, otherwise it prop-blocking"
+	"Remember to add keypads to your fading doors, otherwise you're prop-blocking",
 ];
 
 // Random message order?
@@ -153,7 +153,7 @@ var l_messagesDelay = 2000;
 
 // Messages fade time
 // in milliseconds
-var l_messagesFade = 750;
+var l_messagesFade = 500;
 
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
